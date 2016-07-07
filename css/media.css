@@ -1,0 +1,47 @@
+h1{
+  background:url('../images/logo.png') no-repeat;
+  text-indent: -9999px;
+  width:200px;
+  height:99px;
+}
+body{
+  margin: auto;
+  background: url('../images/bg2.jpg') no-repeat;
+  background-size: stretch;
+}
+nav li{
+  display:inline;
+  margin-left: 0px;
+  margin-right:40px;
+  font-weight: bold;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  text-shadow: 2px 2px 5px  #ff1a1a;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+}
+nav a:hover{
+  font-size: 30px;
+}
+ul{
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+p{
+ font-weight: bolder;
+ font-family:cursive;
+}
+.foot
+{
+  font-size: 12px;
+  font-weight: bolder;
+  text-shadow: 3px 3px 8px #FF0000;
+  font-family: 'Fira Sans', sans-serif;
+}
+.plugin{
+  float:right;
+}

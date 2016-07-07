@@ -1,0 +1,57 @@
+h1{
+  background:url('../images/logo.png') no-repeat;
+  text-indent: -9999px;
+  width:200px;
+  height:99px;
+}
+body{
+  background: url('../images/bg2.jpg') no-repeat;
+  background-size:cover;
+}
+nav li{
+  display:inline;
+  margin-left: 0px;
+  margin-right:40px;
+  font-weight: bold;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  text-shadow: 2px 2px 5px  #ff1a1a;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+}
+nav a:hover{
+  font-size: 30px;
+}
+section{
+  padding: 20px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+img{
+  width:350px;
+  height:350px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  margin-bottom: 10px;
+}
+.primary{
+  float:left;
+}
+center{
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-weight: bolder;
+}
+.foot
+{
+  font-size: 12px;
+  font-weight: bolder;
+  text-shadow: 3px 3px 8px #FF0000;
+  font-family: 'Fira Sans', sans-serif;
+}
+.plugin{
+  float:right;
+}

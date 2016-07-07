@@ -37,6 +37,8 @@ font-size: 30px;
   margin-bottom:30px;
   width: 960px;
   height:400px;
+  animation-duration: 5s;
+  animation-name:slidein;
 }
 .foot
 {
@@ -44,4 +46,8 @@ font-size: 30px;
   font-weight: bolder;
   text-shadow: 3px 3px 8px #FF0000;
   font-family: 'Fira Sans', sans-serif;
+}
+.plugin
+{
+  float:right;
 }
