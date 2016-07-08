@@ -5,8 +5,11 @@ h1{
   height:99px;
 }
 body{
-  background: url('../images/bg2.jpg') no-repeat;
+  background: url('../images/bg8.jpg') no-repeat;
   background-size:cover;
+}
+nav{
+  position: fixed;
 }
 nav li{
   display:inline;
@@ -52,6 +55,11 @@ center{
   text-shadow: 3px 3px 8px #FF0000;
   font-family: 'Fira Sans', sans-serif;
 }
-.plugin{
+.plugin
+{
+  margin-top:0px;
   float:right;
+  font-size:2em;
+  padding-left: 10px;
+  padding-right:10px;
 }

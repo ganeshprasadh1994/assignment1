@@ -7,9 +7,14 @@ h1{
 }
 body{
   margin: auto;
-  background: url('../images/bg2.jpg') no-repeat;
+  margin-bottom: 960px;
+  background: url('../images/contact1.jpg') no-repeat;
   background-size: cover;
 }
+nav {
+  position: fixed;
+}
+
 nav li{
   display:inline;
   margin-left: 0px;
@@ -18,7 +23,6 @@ nav li{
   font-family: 'PT Sans', sans-serif;
   font-size: 20px;
   text-shadow: 2px 2px 5px  #ff1a1a;
-  //position:fixed;
 }
 nav a{
   text-decoration: none;
@@ -32,25 +36,41 @@ nav a:hover{
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: bolder;
 }
+h2{
+  font-size:100px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
 p{
   font-style: italic;
+
   font-variant: normal;
   position: absolute;
 }
 #im1{
   margin-top:20px;
   margin-bottom:20px;
+  width:960px;
+  height:280px;
+}
+ul{font-family: 'Proza Libre', sans-serif;
+  font-weight: bolder;
 }
 .con1{
   float: left;
-  margin-right: 200px;
+  margin-right: 20px;
+  width:30%;
 }
 .con2{
   float:left;
-  margin-right: 200px;
+  margin-right: 20px;
+  width:30%;
+
 }
 .con3{
   float:left;
+  font-weight: bolder;
+  width:30%
 }
 .foot
 {
@@ -58,8 +78,12 @@ p{
   font-weight: bolder;
   text-shadow: 3px 3px 8px #FF0000;
   font-family: 'Fira Sans', sans-serif;
-  maring-top:30px;
 }
-.plugin{
+.plugin
+{
+  margin-top:0px;
   float:right;
+  font-size:2em;
+  padding-left: 10px;
+  padding-right:10px;
 }

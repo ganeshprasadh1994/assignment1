@@ -4,10 +4,22 @@ h1{
   width:200px;
   height:99px;
 }
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
 body{
   margin: auto;
-  background: url('../images/bg2.jpg') no-repeat;
+  background: url('../videos/intro.mp4') no-repeat;
   background-size: cover;
+}
+nav{
+  position: fixed;
 }
 nav li{
   display:inline;
@@ -49,5 +61,13 @@ font-size: 30px;
 }
 .plugin
 {
+  margin-top:0px;
   float:right;
+  font-size:2em;
+  padding-left: 10px;
+  padding-right:10px;
+}
+.link
+{
+  target="_blank";
 }
